@@ -42,3 +42,20 @@ export async function api<T>(path: string, options?: RequestInit): Promise<T> {
     }
     return body as T;
 }
+
+
+## Install Nest
+npm @nestjs/cli@11 new api —package-manager nom —skip-git —strict
+npm install @nestjs/config @nestjs/typeorm @nestjs/mapped-type typeorm mysql2 class-validator class-transformer crypt
+npm install -D @types/bcrypt
+
+npx nest g module <name>
+npx nest g controller <name>
+npx nest g service <name>
+
+
+
+
+
+
+
